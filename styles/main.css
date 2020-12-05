@@ -1,0 +1,116 @@
+/* ------------------------------- Global ----------------------------- */
+
+* {
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: poppins;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  src: url(/fonts/montserrat/MontserratSubrayada-Regular.ttf);
+  font-family: montserrat;
+}
+
+@font-face {
+  src: url(/fonts/poppins/Poppins-Regular.ttf);
+  font-family: poppins;
+}
+
+/* ------------------------------ Navigation Bar ---------------------------- */
+
+.logo {
+  font-family: montserrat;
+  cursor: pointer;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 95vw;
+  margin: auto;
+}
+
+.logo {
+  flex: 1 1 0rem;
+  color: #73009b;
+}
+
+.navLinks {
+  flex: 2 1 0rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.navLinks a {
+  color: rgb(73, 73, 73);
+  padding: 0.3rem 1.5rem;
+  border-radius: 3rem;
+  transition: all 0.3s ease-in-out;
+}
+
+nav {
+  height: 10vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.navLinks a:hover {
+  background: #73009b;
+  color: white;
+}
+
+/* --------------------------------- Header ------------------------------------ */
+
+.headerContainer {
+  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.171)),
+    url(/Assets/Images/bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  justify-content: center;
+  color: white;
+}
+
+.headerContainer h1,
+h3 {
+  font-weight: normal;
+  text-align: center;
+}
+
+.headerContainer h1 {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.headerContainer h3 {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+.headerContainer button {
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  margin: 0rem 1rem;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(90deg, #ff00e1 -6.98%, #8c00ff);
+  font-size: 1rem;
+}
+

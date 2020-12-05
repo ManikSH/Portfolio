@@ -1,0 +1,57 @@
+/* ------------------------------- Navigation Bar ----------------------- */
+
+@media (max-width: 800px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 700px) {
+    .navLinks {
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        font-size: 1.5rem;
+        background-color: rgba(0, 0, 0, 0.863);
+        transform: translateX(100%);
+        z-index: 1;
+    }
+
+    .navLinks a {
+        color: white;
+    }
+
+    .logo {
+        flex: unset;
+        margin-left: 1rem;
+    }
+
+    .hamburger {
+        height: 2rem;
+        margin-left: auto;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .line {
+        height: 0.4rem;
+        width: 3rem;
+        margin: 0.4rem;
+        background-color: black;
+    }
+
+    .removeNavLinks {
+        transform: translateX(0);
+    }
+
+    .changeColor div{
+        background-color: white;
+    }
+
+    /* .animateSticks div:nth-child(1){
+        display: none;
+    } */
+}

@@ -6,9 +6,31 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 10vh;
+}
+
 body {
   font-family: poppins;
   overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(231, 231, 231);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(194, 194, 194) ;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #363636;
 }
 
 a {
@@ -58,6 +80,10 @@ a {
 }
 
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 10vh;
   background-color: rgb(255, 255, 255);
 }
@@ -68,6 +94,10 @@ nav {
 }
 
 /* --------------------------------- Header ------------------------------------ */
+
+#headerSection {
+  margin-top: 10vh;
+}
 
 .headerContainer {
   background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.171)),

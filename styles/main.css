@@ -8,7 +8,7 @@
 
 body {
   font-family: poppins;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 a {
@@ -111,3 +111,80 @@ h3 {
   font-size: 1rem;
 }
 
+/* ------------------------------- Services ------------------------------ */
+
+#servicesSection {
+  background-color: #001330;
+  min-height: 100vh;
+}
+
+.servicesContainer {
+  width: 95vw;
+  margin: auto;
+}
+
+.servicesHeader h2 {
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: lighter;
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+}
+
+.servicesCards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.servicesCards > div {
+  flex-basis: 20rem;
+  flex-grow: 1;
+  margin: 2rem;
+  /* width: 5rem; */
+  /* flex-grow: 1; */
+  /* flex: 1 1; */
+}
+
+.card2 {
+  /* flex-grow: 1; */
+}
+
+.card3 {
+  /* flex-grow: 1; */
+}
+
+.card1 {
+  /* flex-grow: 2; */
+}
+
+.cardLogo {
+  text-align: center;
+  background: linear-gradient(90deg, #530185, #FB01EE);
+  padding: 0.5rem;
+}
+
+.cardText {
+  padding: 1rem;
+  text-align: justify;
+  background-color: white;
+}
+
+.cardText h3 {
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+.cardText p {
+  font-size: 1rem;
+}
+
+.cardBtn {
+  text-align: center;
+  background: linear-gradient(90deg, #FB01EE, #530185);
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+}

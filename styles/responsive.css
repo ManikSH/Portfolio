@@ -1,14 +1,14 @@
 /* ------------------------------- Navigation Bar ----------------------- */
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
     html {
         font-size: 80%;
     }
-}
+} */
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     .navLinks {
-        position: absolute;
+        position: fixed;
         flex-direction: column;
         top: 0;
         left: 0;
@@ -25,15 +25,14 @@
     }
 
     .logo {
-        flex: unset;
         margin-left: 1rem;
     }
 
     .hamburger {
         height: 2rem;
-        margin-left: auto;
         cursor: pointer;
         z-index: 2;
+        transform: translateY(-15%);
     }
 
     .line {

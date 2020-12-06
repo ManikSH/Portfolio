@@ -27,11 +27,6 @@ a {
 
 /* ------------------------------ Navigation Bar ---------------------------- */
 
-.logo {
-  font-family: montserrat;
-  cursor: pointer;
-}
-
 .navContainer {
   display: flex;
   align-items: center;
@@ -43,6 +38,12 @@ a {
 .logo {
   flex: 1 1 0rem;
   color: #73009b;
+  font-family: montserrat;
+  cursor: pointer;
+}
+
+.hamburger {
+    
 }
 
 .navLinks {

@@ -42,10 +42,6 @@ a {
   cursor: pointer;
 }
 
-.hamburger {
-    
-}
-
 .navLinks {
   flex: 2 1 0rem;
   display: flex;

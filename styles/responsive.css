@@ -40,6 +40,7 @@
         width: 3rem;
         margin: 0.4rem;
         background-color: black;
+        transition: all 0.3s ease;
     }
 
     .line:nth-child(2) {
@@ -54,7 +55,11 @@
         background-color: white;
     }
 
-    /* .animateSticks div:nth-child(1){
-        display: none;
-    } */
+    .animateSticks div:nth-child(1), .animateSticks div:nth-child(3){
+        width: 1.5rem;
+    }
+
+    .animateSticks div:nth-child(2) {
+        width: 3rem;
+    }
 }

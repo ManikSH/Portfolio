@@ -36,10 +36,14 @@
     }
 
     .line {
-        height: 0.4rem;
+        height: 0.25rem;
         width: 3rem;
         margin: 0.4rem;
         background-color: black;
+    }
+
+    .line:nth-child(2) {
+        width: 1.5rem;
     }
 
     .removeNavLinks {

@@ -201,7 +201,7 @@ h3 {
 .cardBtn {
   text-align: center;
   background: linear-gradient(90deg, #FB01EE, #530185);
-  padding: 0.5rem;
+  padding: 0.8rem;
   font-size: 1rem;
   color: white;
   cursor: pointer;
@@ -321,4 +321,90 @@ h3 {
 
 .work:hover {
   box-shadow: none;
+}
+
+/* ------------------------ Contact Me ------------------------ */
+
+#contactMeSection {
+  min-height: 100vh;
+  background: linear-gradient(#000018, transparent) ,url(/Assets/Images/bg2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contactMeContainer {
+    width: 95vw;
+  margin: auto;
+}
+
+.contactMeHeader {
+
+  font-size: 2.5rem;
+  color: white;
+  padding-top: 5vh; 
+  text-align: center;
+  font-weight: lighter;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
+.contactMeHeader2 {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 2rem;
+}
+
+.contactMeMainContainer {
+  background-color: rgba(0, 0, 0, 0.616);
+  width: 60vw;
+  margin: auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.formBtn {
+  width: 100%;
+  background: linear-gradient(90deg,#FF0099, #41006D);
+  outline: none;
+  border: none;
+  padding: 0.8rem;
+  cursor: pointer;
+  color: white;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+form {
+  width: 100%;
+}
+
+.name, .email, .message {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.name input, .email input {
+  padding: 0.3rem 0rem;
+}
+
+
+
+.contactMeContainer input {
+  padding: 0rem 2rem;
+}
+
+.message input {
+  padding: 2rem 2rem;
+}
+
+label {
+  width: 5rem;
+  margin-right: 2rem;
 }

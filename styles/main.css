@@ -8,7 +8,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding: 10vh;
+  scroll-padding: 8vh;
 }
 
 body {
@@ -86,6 +86,7 @@ nav {
   width: 100%;
   height: 10vh;
   background-color: rgb(255, 255, 255);
+  z-index: 2;
 }
 
 .navLinks a:hover {
@@ -144,7 +145,7 @@ h3 {
 /* ------------------------------- Services ------------------------------ */
 
 #servicesSection {
-  background-color: #001330;
+  background-color: #000018;
   min-height: 100vh;
 }
 
@@ -160,6 +161,8 @@ h3 {
   font-weight: lighter;
   padding-top: 7vh;
   padding-bottom: 7vh;
+  text-decoration-line: underline;
+  text-underline-offset: 0.5rem;
 }
 
 .servicesCards {
@@ -172,21 +175,6 @@ h3 {
   flex-basis: 20rem;
   flex-grow: 1;
   margin: 2rem;
-  /* width: 5rem; */
-  /* flex-grow: 1; */
-  /* flex: 1 1; */
-}
-
-.card2 {
-  /* flex-grow: 1; */
-}
-
-.card3 {
-  /* flex-grow: 1; */
-}
-
-.card1 {
-  /* flex-grow: 2; */
 }
 
 .cardLogo {
@@ -217,4 +205,120 @@ h3 {
   font-size: 1rem;
   color: white;
   cursor: pointer;
+}
+
+/* ------------------------------ Testimonials --------------------------- */
+
+#testimonialsSection {
+  min-height: 100vh;
+  background: linear-gradient(315deg, #FF0099, #41006D);
+}
+
+.testimonialsContainer {
+  width: 95vw;
+  margin: auto;
+}
+
+.testimonialsHead {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+  padding-top: 7vh;
+  padding-bottom: 15vh;
+  font-weight: lighter;
+  text-decoration-line: underline;
+  text-underline-offset: 0.5rem;
+}
+
+.person {
+  background-color: rgb(255, 255, 255);
+  flex-grow: 1;
+  flex-shrink: 3;
+  margin: 3rem;
+  margin-bottom: 5rem;
+  flex-basis: 15rem;
+  position: relative;
+  box-shadow: 5px 5px 15px 7px rgba(0, 0, 0, 0.5);
+}
+
+.personImg img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  border: 0.3rem solid rgb(255, 255, 255);
+  background-color: white;
+}
+
+.personImg {
+  position: absolute;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+
+.testimonialsMainContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.personText {
+  text-align: center;
+  margin-top: 4rem;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+.personName {
+  font-size: 1.1rem;
+  font-weight: bolder;
+  padding-bottom: 2rem;
+}
+
+.quotes {
+  font-size: 1.7rem;
+  font-weight: bolder;
+}
+
+.hrLine2 {
+  height: 5px;
+  width: 10rem;
+  margin: auto;
+  background-color: white;
+}
+
+/* --------------------------------- Works ----------------------------------- */
+
+.worksSection {
+  min-height: 30vh;
+  background-color: #000018;
+}
+
+.worksContainer {
+  min-width: 95vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.work {
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 0rem;
+  flex-basis: 15rem;
+  flex-grow: 1;
+  max-width: 15rem;
+  margin: 2rem;
+  text-align: center;
+  box-shadow: inset 6px 6px 24px 1px rgba(0, 0, 0, 0.513);
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.work:hover {
+  box-shadow: none;
 }

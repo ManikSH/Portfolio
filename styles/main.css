@@ -21,16 +21,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: rgb(231, 231, 231);
+  background-color: rgb(231, 231, 231);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(194, 194, 194) ;
-    cursor: pointer;
+  background: rgb(194, 194, 194);
+  cursor: pointer;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #363636;
+  background: #363636;
 }
 
 a {
@@ -179,7 +179,7 @@ h3 {
 
 .cardLogo {
   text-align: center;
-  background: linear-gradient(90deg, #530185, #FB01EE);
+  background: linear-gradient(90deg, #530185, #fb01ee);
   padding: 0.5rem;
 }
 
@@ -200,7 +200,7 @@ h3 {
 
 .cardBtn {
   text-align: center;
-  background: linear-gradient(90deg, #FB01EE, #530185);
+  background: linear-gradient(90deg, #fb01ee, #530185);
   padding: 0.8rem;
   font-size: 1rem;
   color: white;
@@ -211,7 +211,7 @@ h3 {
 
 #testimonialsSection {
   min-height: 100vh;
-  background: linear-gradient(315deg, #FF0099, #41006D);
+  background: linear-gradient(315deg, #ff0099, #41006d);
 }
 
 .testimonialsContainer {
@@ -256,7 +256,6 @@ h3 {
   text-align: center;
   z-index: 1;
 }
-
 
 .testimonialsMainContainer {
   display: flex;
@@ -327,22 +326,23 @@ h3 {
 
 #contactMeSection {
   min-height: 100vh;
-  background: linear-gradient(#000018, transparent) ,url(/Assets/Images/bg2.png);
+  background: linear-gradient(#000018, transparent), url(/Assets/Images/bg2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .contactMeContainer {
-    width: 95vw;
+  align-items: center;
+  width: 95vw;
   margin: auto;
+
 }
 
 .contactMeHeader {
-
   font-size: 2.5rem;
   color: white;
-  padding-top: 5vh; 
+  padding-top: 5vh;
   text-align: center;
   font-weight: lighter;
   text-decoration: underline;
@@ -359,18 +359,17 @@ h3 {
 
 .contactMeMainContainer {
   background-color: rgba(0, 0, 0, 0.616);
-  width: 60vw;
+  width: 50vw;
   margin: auto;
   color: white;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
   border-radius: 1rem;
+  text-align: center;
+  margin-top: 1 0vh;
 }
 
 .formBtn {
   width: 100%;
-  background: linear-gradient(90deg,#FF0099, #41006D);
+  background: linear-gradient(90deg, #ff0099, #41006d);
   outline: none;
   border: none;
   padding: 0.8rem;
@@ -380,31 +379,45 @@ h3 {
   border-bottom-right-radius: 1rem;
 }
 
-form {
-  width: 100%;
-}
-
-.name, .email, .message {
-  padding: 1rem;
-  display: flex;
-  justify-content: center;
-}
-
-.name input, .email input {
-  padding: 0.3rem 0rem;
-}
-
-
-
-.contactMeContainer input {
-  padding: 0rem 2rem;
-}
-
-.message input {
-  padding: 2rem 2rem;
-}
-
 label {
   width: 5rem;
-  margin-right: 2rem;
+  display: inline-block;
+}
+
+.name input,
+.email input {
+  padding: 0.3rem;
+  margin-left: 1rem;
+}
+
+.name {
+  padding: 2rem 1rem;
+}
+
+.email {
+  padding: 0rem 1rem 2rem 1rem;
+}
+
+/* ------------------------------- Footer -------------------------------------- */
+
+footer {
+  background-color: #070114;
+  color: white;
+  min-height: 20vh;
+}
+
+.footerContainer {
+  padding: 0.5rem;
+}
+
+.footerContainer img {
+  height: 1.8rem;
+}
+
+.footerIcons {
+  width: 40vw;
+  padding: 0.5rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
 }

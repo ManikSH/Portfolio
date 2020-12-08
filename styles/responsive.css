@@ -57,36 +57,21 @@
         width: 3rem;
     }
 
+   .contactMeMainContainer {
+  width: 70vw;
+}
 
+.name input,
+.email input {
+  /* padding: 0.3rem; */
+  margin-left: 0rem;
+}
 
 }
 
-@media (max-width: 500px) {
-    .contactMeMainContainer {
-  width: 90vw;
+@media (max-width: 400px) {
+ 
+   .contactMeMainContainer {
+  width: 85vw;
 }
-
-.name, .email, .message {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.contactMeMainContainer label {
-    text-align: center;
-    width: 100%;   
-    margin-right: 0;
-    padding: 0.5rem;
-}
-
-.contactMeMainContainer input {
-    width: 15rem;
-}
-}
-
-@media (max-width: 640px) {
-    .contactMeMainContainer {
-        width: 80vw;
-    }
 }

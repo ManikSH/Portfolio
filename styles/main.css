@@ -49,6 +49,8 @@ a {
 
 /* ------------------------------ Navigation Bar ---------------------------- */
 
+
+
 .navContainer {
   display: flex;
   align-items: center;
@@ -89,9 +91,15 @@ nav {
   z-index: 2;
 }
 
-.navLinks a:hover {
+/* .navLinks a:hover {
   background: #73009b;
   color: white;
+} */
+
+.activeHeader {
+  background: #73009b;
+  color: rgb(255, 255, 255) !important;
+  
 }
 
 /* --------------------------------- Header ------------------------------------ */
@@ -336,7 +344,6 @@ h3 {
   align-items: center;
   width: 95vw;
   margin: auto;
-
 }
 
 .contactMeHeader {
